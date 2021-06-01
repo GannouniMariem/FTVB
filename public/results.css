@@ -1,0 +1,142 @@
+.Designation-latest-result {
+    float: left;
+    width: 100%;
+    background-color: #06517C;
+}
+.Designation-result-one {
+    float: left;
+    text-align: center;
+    padding: 109px 0px 0px 0px;
+}
+.Designation-result-two {
+    float: right;
+    text-align: center;
+    padding: 109px 0px 0px 0px;
+}
+.Designation-result-one figure {
+    display: inline-block;
+    margin: 0px 0px 12px;
+    width: 72px;
+}
+.Designation-result-one section { line-height: 1.5;}
+.Designation-result-one section h4 {
+    margin: 0px 0px 1px;
+    font-weight: bold;
+    color: #fff;
+}
+.Designation-result-one section span {
+    color: #fff;
+    font-size: 13px;
+}
+.Designation-result-text {
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 31px 0px 0px 0px;
+}
+
+.Designation-match-date {
+    position: relative;
+    margin: 0px 0px 36px;
+}
+.Designation-match-date h4 {
+    margin: 0px 0px 4px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.Designation-match-date time { color: #fff;}
+.Designation-score-result {
+    display: inline-block;
+    background-color: #D80E2A ;
+    position: relative;
+    padding: 65px 65px 65px;
+    margin-left: 7 px;
+
+}
+.Designation-score-result h5 {
+    margin: 0px 0px 3px;
+    font-weight: bold;
+}
+.Designation-score-result span i {
+    float: left;
+    font-size: 17px;
+    margin: 13px 7px 0px 0px;
+}
+.Designation-score-result span {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+}
+.Designation-score-result span small {
+    font-size: 35px;
+    margin: 0px 7px;
+}
+.Designation-next-game {
+    float: left;
+    width: 100%;
+    padding: 30px 0px 0px;
+    text-align: center;
+    background-color: #06517C;
+}
+.Designation-next-game .Designation-result-one figure             { width: 89px; margin: 0px 0px 14px;}
+.Designation-next-game .Designation-result-one                    { padding: 0px 0px 0px 0px; margin: 0px 0px 28px 0px;}
+.Designation-next-game .Designation-result-two                    { padding: 0px 0px 0px 0px; margin-right: 0px;}
+.Designation-next-game .Designation-result-one section            { line-height: 1}
+.Designation-next-game .Designation-result-one section h4 {
+    font-size: 16px;
+    margin: 0px;
+    line-height: 1;
+    color: #fff;
+}
+.Designation-next-game .Designation-result-one section span {
+    font-size: 10px;
+    color: #fff;
+}
+.Designation-next-game-text {
+    float: left;
+    background-color: #D80E2A ;
+    text-align: center;
+    position: relative;
+    padding: 15px 19px 18px 18px;
+    margin: 14px 0px 140px;
+}
+
+.Designation-next-game-text time {
+    font-size: 14px;
+    color: #06517C;
+    margin: 0px 0px 2px;
+}
+.Designation-next-game-text time > span { font-size: 16px; font-weight: bold;}
+.Designation-next-game-text > span {
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    color: #fff;
+}
+.Designation-game-countdown,.Designation-game-countdown .countdown-row {
+    float: left;
+    width: 100%;
+}
+.game-countdown-heading {
+    margin: 0px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 14px 90px;
+}
+
+.Designation-game-countdown { text-align: center;}
+.Designation-game-countdown .countdown-row { background-color: #f5f5f5;}
+.Designation-game-countdown .countdown-section {
+    float: left;
+    width: 25%;
+    position: relative;
+    line-height: 1;
+    padding: 18px 0px 20px;
+
+}

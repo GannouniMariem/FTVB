@@ -1,0 +1,222 @@
+#supporters {
+  padding: 60px 0;
+}
+
+#supporters .supporters-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+
+#supporters .supporter-logo {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+  height: 160px;
+}
+
+#supporters .supporter-logo:hover img {
+  transform: scale(1.2);
+}
+
+#supporters img {
+  transition: all 0.4s ease-in-out;
+}
+
+
+#gallery {
+  padding: 60px;
+  overflow: hidden;
+}
+
+#gallery .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+#gallery .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #f82249;
+}
+
+#gallery .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f82249;
+}
+
+#gallery .swiper-slide-active {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #gallery .swiper-wrapper {
+    padding: 40px 0;
+  }
+  #gallery .swiper-slide-active {
+    border: 5px solid #f82249;
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+    transform: scale(1.15);
+    margin-top: 6px;
+  }
+}
+
+
+
+
+
+
+#schedule {
+  padding: 6px 0 6px 0;
+}
+
+#schedule .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#schedule .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#schedule .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #06517C;
+  color: #fff;
+  padding: 10px 100px;
+}
+
+
+
+
+#schedule .nav-tabs a.active {
+  background-color: #D80E2A;
+  color: #fff;
+}
+
+#schedule {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+
+
+#schedule .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#schedule .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#schedule .schedule-item:hover {
+  background-color: #fff;
+}
+
+#schedule .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#schedule .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#schedule .schedule-item .speaker img {
+  height: 100%;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#schedule .schedule-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+
+#venue {
+  padding: 60px 0;
+}
+
+#venue .container-fluid {
+  margin-bottom: 3px;
+}
+
+#venue .venue-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+}
+
+#venue .venue-info {
+  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#venue .venue-info:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 574px) {
+  #venue .venue-info h3 {
+    font-size: 24px;
+  }
+}
+
+#venue .venue-info p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+#venue .venue-gallery-container {
+  padding-right: 12px;
+}
+
+#venue .venue-gallery {
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+
+#venue .venue-gallery img {
+  transition: all ease-in-out 0.4s;
+}
+
+#venue .venue-gallery:hover img {
+  transform: scale(1.1);
+}
