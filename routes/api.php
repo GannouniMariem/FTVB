@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\ControllerAdmin;
 use App\Http\Controllers\admin\ControllerEquipes;
 use App\Http\Controllers\admin\ControllerJoueurs;
 use App\Http\Controllers\admin\ControllerLeagues;
@@ -21,8 +22,9 @@ Route::group(['middleware' => ['api']], function () {
 
     Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],function() {
 
+        Route::post('add','ControllerAdmin@create');
         Route::post('login', 'AuthController@login');
-        Route::post('logout', 'AuthController@logout')->middleware('auth.guard:api');
+        Route::post('logout', 'AuthController@logout');
         
         Route::group(['prefix' => 'joueur'],function(){
             

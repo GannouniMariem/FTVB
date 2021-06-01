@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Traits\GeneralTrait;
 
@@ -39,7 +40,7 @@ class AuthController extends Controller
 
             /** @var MyGurdClass $guard */
 
-            $guard = Auth::guard('admin-api');
+            $guard = Auth::guard('api');
             $token = $guard->attempt($credentials);
             
             if (!$token){
@@ -65,7 +66,6 @@ class AuthController extends Controller
     {
 
         $token = $request->header('token');
-        return $token;
         if ($token) {
             try {
                 JWTAuth::setToken($token)->invalidate(); //logout
