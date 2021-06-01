@@ -58,5 +58,11 @@ Route::group(['middleware' => ['api']], function () {
             Route::delete('delete/{id}','ControllerMatch@destroy');
         });
 
+        Route::group(['prefix' => 'gallery'],function(){
+            
+            Route::get('','ControllerGallery@index');
+            Route::post('add','ControllerGallery@create');
+        });
+
     });
 });
