@@ -1,6 +1,7 @@
 <div id="preloader">
-    <img class="preloader" src="images/preloader.gif" alt="">
+    <img class="preloader" src="/front-office/images/preloader.gif" alt="">
 </div>
+
 <section id="top">
 <header>
    <section class="ftco-section">
@@ -26,7 +27,7 @@
                     <div class="col-md-4  d-md-flex justify-content-end mb-md-0 mb-3">
                     <div class="social-media">
                         <p style="margin-left: 190px"class="mb-0 d-flex">
-                        <img src="images/logoftvbAsset 3.png" alt="#" />
+                        <img src="/front-office/images/logoftvbAsset 3.png" alt="#" />
                         </p>
                 </div>
                     </div>

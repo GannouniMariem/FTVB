@@ -5,6 +5,7 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use App\Models\joueur;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ControllerJoueurs extends Controller
 {
@@ -15,9 +16,9 @@ class ControllerJoueurs extends Controller
          */
         public function index()
         {
-            $joueur = joueur::get();
+            $joueurs = joueur::get();
     
-            return response()->json($joueur);
+            return view('back-office.joueur')->with('joueurs',$joueurs);
         }
     
         /**
@@ -27,6 +28,24 @@ class ControllerJoueurs extends Controller
          */
         public function create(Request $request)
         {
+            //validate data before insert to database
+
+                $validator = Validator::make($request->all(),[
+                    
+                    "nom"=>"required |max:100",
+                    "prenom"=>"required |max:100",
+                    "numPull"=>"required|numeric",
+                    "taille"=>"required",
+                    "poids"=>"required",
+                    "buts"=>"required",
+                    "post"=>"required"
+
+                ]);
+
+                if($validator->fails()){
+                    return redirect()->back()->withErrors($validator)->withInput($request->all());
+                }
+            //insert
             $joueur = new joueur();
     
             $joueur->nom = $request->input('nom');
@@ -38,9 +57,8 @@ class ControllerJoueurs extends Controller
             $joueur->post = $request->input('post');
            
             $joueur->save();
-    
-            return response()->json($joueur);
-    
+            
+            return redirect()->back()->with(['sucess'=>'joueur successfully added']);    
         }
     
         /**
@@ -79,9 +97,10 @@ class ControllerJoueurs extends Controller
     
             $joueur->save();
     
-            return response()->json($joueur);
+            return redirect()->back()->with(['sucess'=>'joueur successfully updated']); 
+               
         }
-    
+        
         /**
          * Remove the specified resource from storage.
          *
@@ -93,8 +112,12 @@ class ControllerJoueurs extends Controller
         {
             $joueur = joueur::find($id);
             $joueur->delete();
-    
+
+            return redirect()->back()->with(['sucess'=>'joueur successfully deleted']);        
         }
+
+    
+        
     
         
 }

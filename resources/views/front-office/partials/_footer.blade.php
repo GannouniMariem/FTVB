@@ -5,7 +5,7 @@
              <div class="full">
                 <div class="footer-widget">
                    <div class="footer-logo">
-                      <a href="#"><img src="images/SVG/logo.svg" alt="#" /></a>
+                      <a href="#"><img src="/front-office/images/SVG/logo.svg" alt="#" /></a>
                    </div>
                    <p>Suivez-nous sur les Réseaux sociaux </p>
                    <ul class="social-icons style-4 pull-left">

@@ -14,7 +14,7 @@
               <div class="col-lg-4 col-sm-4 col-xs-12">
                  <aside id="sidebar" class="left-bar">
                     <div class="banner-sidebar">
-                       <img class="img-responsive" src="images/Eq nationale.jfif" alt="#" />
+                       <img class="img-responsive" src="/front-office/images/Eq nationale.jfif" alt="#" />
                        <h3>La Tunisie retrouve son piédestal.</h3>
                     </div>
                  </aside>
@@ -25,34 +25,34 @@
                        <div class="team-btw-match">
                           <ul>
                              <li>
-                                <img src="images/ess midium.png" alt="">
+                                <img src="/front-office/images/ess midium.png" alt="">
                                 <span>ESS</span>
                              </li>
                              <li class="vs"><span>vs</span></li>
                              <li>
-                                <img src="images/est midium.png" alt="">
+                                <img src="/front-office/images/est midium.png" alt="">
                                 <span>EST</span>
                              </li>
                           </ul>
                           <ul>
                              <li>
-                                <img src="images/ess midium.png" alt="">
+                                <img src="/front-office/images/ess midium.png" alt="">
                                 <span>ESS</span>
                              </li>
                              <li class="vs"><span>vs</span></li>
                              <li>
-                                <img src="images/est midium.png" alt="">
+                                <img src="/front-office/images/est midium.png" alt="">
                                 <span>EST</span>
                              </li>
                           </ul>
                           <ul>
                              <li>
-                                <img src="images/ess midium.png" alt="">
+                                <img src="/front-office/images/ess midium.png" alt="">
                                 <span>ESS</span>
                              </li>
                              <li class="vs"><span>vs</span></li>
                              <li>
-                                <img src="images/est midium.png" alt="">
+                                <img src="/front-office/images/est midium.png" alt="">
                                 <span>EST</span>
                              </li>
                           </ul>
@@ -66,23 +66,23 @@
                        <div class="team-btw-match">
                           <ul>
                              <li>
-                                <img src="images/ess midium.png" alt="">
+                                <img src="/front-office/images/ess midium.png" alt="">
                                 <span>CSS</span>
                              </li>
                              <li class="vs"><span>vs</span></li>
                              <li>
-                                <img src="images/ess midium.png" alt="">
+                                <img src="/front-office/images/ess midium.png" alt="">
                                 <span>ESS</span>
                              </li>
                           </ul>
                           <ul>
                              <li>
-                                <img src="images/ess midium.png" alt="">
+                                <img src="/front-office/images/ess midium.png" alt="">
                                 <span>CSS</span>
                              </li>
                              <li class="vs"><span>vs</span></li>
                              <li>
-                                <img src="images/est midium.png" alt="">
+                                <img src="/front-office/images/est midium.png" alt="">
                                 <span>EST</span>
                              </li>
                           </ul>
@@ -110,7 +110,7 @@
                           <tbody>
                              <tr>
                                 <td>1</td>
-                                <td><img src="images/ess mini.png" alt="">Etoile.ss</td>
+                                <td><img src="/front-office/images/ess mini.png" alt="">Etoile.ss</td>
                                 <td>10</td>
                                 <td>21</td>
                                 <td>20</td>
@@ -119,7 +119,7 @@
                              </tr>
                              <tr>
                                 <td>2</td>
-                                <td><img src="images/est mini.png" alt="">Esperance.st</td>
+                                <td><img src="/front-office/images/est mini.png" alt="">Esperance.st</td>
                                 <td>10</td>
                                 <td>19</td>
                                 <td>20</td>
@@ -128,7 +128,7 @@
                              </tr>
                              <tr>
                                 <td>3</td>
-                                <td><img src="images/ess mini.png" alt="">cs.Sfaxien</td>
+                                <td><img src="/front-office/images/ess mini.png" alt="">cs.Sfaxien</td>
                                 <td>10</td>
                                 <td>15</td>
                                 <td>20</td>
@@ -137,7 +137,7 @@
                              </tr>
                              <tr>
                                 <td>4</td>
-                                <td><img src="images/est mini.png" alt="">A.Carthage</td>
+                                <td><img src="/front-office/images/est mini.png" alt="">A.Carthage</td>
                                 <td>10</td>
                                 <td>10</td>
                                 <td>0</td>
@@ -146,7 +146,7 @@
                              </tr>
                              <tr>
                                 <td>5</td>
-                                <td><img src="images/ess mini.png" alt="">OSCC</td>
+                                <td><img src="/front-office/images/ess mini.png" alt="">OSCC</td>
                                 <td>10</td>
                                 <td>6</td>
                                 <td>30</td>
@@ -155,7 +155,7 @@
                              </tr>
                              <tr>
                                 <td>1</td>
-                                <td><img src="images/est mini.png" alt="">Tabarka</td>
+                                <td><img src="/front-office/images/est mini.png" alt="">Tabarka</td>
                                 <td>10</td>
                                 <td>4</td>
                                 <td>20</td>
@@ -168,10 +168,10 @@
                  </aside>
                  <aside id="sidebar" class="left-bar">
                     <div class="banner-sidebar">
-                       <img class="img-responsive " src="images/pub 2.png" alt="#" />
+                       <img class="img-responsive " src="/front-office/images/pub 2.png" alt="#" />
                     </div>
                  </aside>
-                 <div class="content-widget top-story" style="background: url(images/links\ zone.jpg);">
+                 <div class="content-widget top-story" style="background: url(/front-office/images/links\ zone.jpg);">
                     <div class="top-stroy-header">
                        <h2>Communiqués &nbsp  &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="#" class="fa fa-fa fa-angle-right"></a></h2>
                        <span class="date">Juin 05, 2021</span>
@@ -191,7 +191,7 @@
               <div class="col-lg-8 col-sm-8 col-xs-12">
                  <div class="news-post-holder">
                     <div class="news-post-widget">
-                       <img class="img-responsive" src="images/meeting.png" alt="">
+                       <img class="img-responsive" src="/front-office/images/meeting.png" alt="">
                        <div class="news-post-detail">
                           <h2><a href="blog-detail.html">استقبال وزيرة شؤون الشباب و الرياضة السيدة سنية بن الشيخ لرئيس الجامعة التونسية للكرة الطائرة الدكتور فراس الفالح,</a></h2>
                           <p>
@@ -200,7 +200,7 @@
                        </div>
                     </div>
                     <div class="news-post-widget">
-                       <img class="img-responsive" src="images/congres.jpg" alt="">
+                       <img class="img-responsive" src="/front-office/images/congres.jpg" alt="">
                        <div class="news-post-detail">
                           <h2><a href="blog-detail.html">SIGNATURE D’UNE PREMIERE CONVENTION ENTRE LA FTVB ET LA FFVOLLEY</a></h2>
                           <p> Suite à la participation du président de la Fédération Tunisienne de Volleyball Dr Firas El Felah au congrès de la...</p>
@@ -210,7 +210,7 @@
                  </div>
                  <div class="news-post-holder">
                     <div class="news-post-widget">
-                       <img class="img-responsive" src="images/css dame.jpg" alt="">
+                       <img class="img-responsive" src="/front-office/images/css dame.jpg" alt="">
                        <div class="news-post-detail">
                           <h2><a href="blog-detail.html">Le Club sportif Sfaxien retrouve son piédestal</a></h2>
                           <p> En battant l’esperance tunisien sur le score de trois sets à zéro (25-22, 25-20, 25-15), le club sfaxien a remporté son 9ème titre de champion d’Afrique. ...</p>
@@ -269,7 +269,7 @@
                           <div class="front">
                           
                              <div class="user">
-                                <img class="img-circle" src="images/vol men.jpg"/>
+                                <img class="img-circle" src="/front-office/images/vol men.jpg"/>
                             </div>
                               <div class="content">
                                   <div class="main" >
@@ -282,7 +282,7 @@
                           </div> 
                           <div class="back">
                               <div class="header">
-                                  <h5 class="motto"><img src="images/ess midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
+                                  <h5 class="motto"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
                               </div>
                               <div class="content">
                                   <div class="main">
@@ -350,7 +350,7 @@
                <div class="front">
                    
                  <div class="user">
-                    <img class="img-circle" src="images/vol men.jpg"/>
+                    <img class="img-circle" src="/front-office/images/vol men.jpg"/>
                 </div>
                    <div class="content">
                        <div class="main">
@@ -363,7 +363,7 @@
                </div> 
                <div class="back">
                    <div class="header">
-                    <h5 class="motto"><img src="images/est midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
+                    <h5 class="motto"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
                    </div>
                    <div class="content">
                        <div class="main">
@@ -429,7 +429,7 @@
                       <div class="card">
                           <div class="front">        
                               <div class="user">
-                                  <img class="img-circle" src="images/vol men.jpg"/>
+                                  <img class="img-circle" src="/front-office/images/vol men.jpg"/>
                               </div>
                               <div class="content">
                                   <div class="main">
@@ -440,7 +440,7 @@
                           </div> 
                           <div class="back">
                               <div class="header">
-                                <h5 class="motto"><img src="images/est midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
+                                <h5 class="motto"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
                               </div>
                               <div class="content">
                                   <div class="main">
@@ -522,25 +522,25 @@
     
             <div class="col-lg-3 col-md-4 col-xs-6">
               <div class="supporter-logo">
-                <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+                <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
               </div>
             </div>
     
             <div class="col-lg-3 col-md-4 col-xs-6">
               <div class="supporter-logo">
-                <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+                <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
               </div>
             </div>
     
             <div class="col-lg-3 col-md-4 col-xs-6">
               <div class="supporter-logo">
-                <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+                <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
               </div>
             </div>
     
             <div class="col-lg-3 col-md-4 col-xs-6">
               <div class="supporter-logo">
-                <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+                <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
               </div>
             </div>
     
