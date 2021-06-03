@@ -5,6 +5,8 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use App\Models\equipe;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+
 
 class ControllerEquipes extends Controller
 {
@@ -16,9 +18,10 @@ class ControllerEquipes extends Controller
          */
         public function index()
         {
-            $equipe = equipe::get();
+            $equipes = equipe::get();
     
-            return response()->json($equipe);
+            return view('back-office.equipe')->with('equipes',$equipes);
+
         }
     
         /**
@@ -28,6 +31,24 @@ class ControllerEquipes extends Controller
          */
         public function create(Request $request)
         {
+             //validate data before insert to database
+
+             $validator = Validator::make($request->all(),[
+                    
+                "nom"=>"required |max:100",
+                "type"=>"required ",
+                "classement"=>"required",
+                "score"=>"required",
+                "nbPoint"=>"required",
+                "staff"=>"required",
+                "Nextmatch"=>"required"
+
+            ]);
+
+            if($validator->fails()){
+                return redirect()->back()->withErrors($validator)->withInput($request->all());
+            }
+        //insert
             $equipe = new equipe();
     
             $equipe->nom = $request->input('nom');
@@ -40,7 +61,7 @@ class ControllerEquipes extends Controller
            
             $equipe->save();
     
-            return response()->json($equipe);
+            return redirect()->back()->with(['sucess'=>'equipe successfully added']);    
     
         }
     
@@ -80,7 +101,7 @@ class ControllerEquipes extends Controller
 
             $equipe->save();
     
-            return response()->json($equipe);
+            return redirect()->back()->with(['sucess'=>'equipe successfully updated']); 
         }
     
         /**
@@ -94,6 +115,8 @@ class ControllerEquipes extends Controller
         {
             $equipe = equipe::find($id);
             $equipe->delete();
+            return redirect()->back()->with(['sucess'=>'equipe successfully deleted']);        
+
     
         }
     

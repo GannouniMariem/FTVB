@@ -36,10 +36,10 @@
                 </li>
                     
                 <li><a href="/admin/joueur" class="waves-effect"><span class="hide-menu">Gestion des joueurs </span></a></li>
-                <li><a href="equipe.html" class="waves-effect"><span class="hide-menu">Gestion d'équipes </span></a></li>
-                <li><a href="league.html" class="waves-effect"><span class="hide-menu">Gestion des leagues </span></a></li>
-                <li><a href="match.html" class="waves-effect"><span class="hide-menu">Affichage des matchs </span></a></li>
-                <li><a href="article.html" class="waves-effect"><span class="hide-menu">Les articles</span></a></li> 
-                <li><a href="gallery.html"class="waves-effect">Gallery</a></li>
+                <li><a href="/admin/equipe" class="waves-effect"><span class="hide-menu">Gestion d'équipes </span></a></li>
+                <li><a href="/admin/league" class="waves-effect"><span class="hide-menu">Gestion des leagues </span></a></li>
+                <li><a href="/admin/match" class="waves-effect"><span class="hide-menu">Affichage des matchs </span></a></li>
+                <li><a href="/admin/article" class="waves-effect"><span class="hide-menu">Les articles</span></a></li> 
+                <li><a href="/admin/gallery"class="waves-effect">Gallery</a></li>
       </div>
 </div>

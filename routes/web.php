@@ -41,7 +41,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],
         Route::get('','ControllerEquipes@index');
         Route::post('add','ControllerEquipes@create');
         Route::post('update','ControllerEquipes@update');
-        Route::delete('delete/{id}','ControllerEquipes@destroy');
+        Route::get('delete/{id}','ControllerEquipes@destroy');
     });
 
     Route::group(['prefix' => 'league'],function(){
@@ -66,7 +66,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],
         
         Route::get('','ControllerGallery@index');
         Route::post('add','ControllerGallery@create');
-        
+
     });
 
 });
