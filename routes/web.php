@@ -49,7 +49,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],
         Route::get('','ControllerLeagues@index');
         Route::post('add','ControllerLeagues@create');
         Route::post('update','ControllerLeagues@update');
-        Route::delete('delete/{id}','ControllerLeagues@destroy');
+        Route::get('delete/{id}','ControllerLeagues@destroy');
 
     });
 

@@ -175,8 +175,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </td>
-                                <td>
+                           
                                     <a  class="btn btn-success equipeEdit" alt="default" data-toggle="modal" data-target="#editModel" > Modifier </a> 
                                 </td>
                      											

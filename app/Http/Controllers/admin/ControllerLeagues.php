@@ -5,6 +5,7 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use App\Models\league;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ControllerLeagues extends Controller
 {
@@ -15,9 +16,9 @@ class ControllerLeagues extends Controller
          */
         public function index()
         {
-            $league = league::get();
+            $leagues = league::get();
     
-            return response()->json($league);
+            return view('back-office.league')->with('leagues',$leagues);
         }
     
         /**
@@ -27,6 +28,22 @@ class ControllerLeagues extends Controller
          */
         public function create(Request $request)
         {
+               //validate data before insert to database
+
+               $validator = Validator::make($request->all(),[
+                    
+                "nom"=>"required |max:100",
+                "type"=>"required ",
+                "classement"=>"required",
+                "resultat"=>"required",
+            
+
+            ]);
+
+            if($validator->fails()){
+                return redirect()->back()->withErrors($validator)->withInput($request->all());
+            }
+          //insert
             $league = new league();
     
             $league->nom = $request->input('nom');
@@ -36,7 +53,7 @@ class ControllerLeagues extends Controller
            
             $league->save();
     
-            return response()->json($league);
+            return redirect()->back()->with(['sucess'=>'league successfully added']);    
     
         }
     
@@ -73,7 +90,8 @@ class ControllerLeagues extends Controller
     
             $league->save();
     
-            return response()->json($league);
+            return redirect()->back()->with(['sucess'=>'league successfully updated']);    
+
         }
     
         /**
@@ -87,6 +105,8 @@ class ControllerLeagues extends Controller
         {
             $league = league::find($id);
             $league->delete();
+            return redirect()->back()->with(['sucess'=>'league successfully deleted']);        
+
     
         }
     
