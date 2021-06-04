@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 
 Route::get('/admin', function () {
     return view('back-office.layout.main');
@@ -24,6 +20,28 @@ Route::get('/admin', function () {
 
 Route::get('/ftvbpresentation',function(){
     return view('front-office.ftvb presentation');
+
+});
+
+Route::get('/contact',function(){
+    return view('front-office.contact');
+
+});
+
+
+Route::get('/bureaufederale',function(){
+    return view('front-office.bureau federale');
+
+});
+
+
+Route::get('/commutionArbitrage',function(){
+    return view('front-office.commution Arbitrage');
+
+});
+
+Route::get('/commutionMedicale',function(){
+    return view('front-office.commution Arbitrage');
 
 });
 
@@ -87,6 +105,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],
 
 Route::group(['namespace' => 'App\Http\Controllers\frontOffice'],function() {
 
+    
+    Route::get('/','ControllerArticle@welcomeindexArticle');
     Route::get('beachvolleycircuitnationale','controllerBeachVolley@index');
 
 });

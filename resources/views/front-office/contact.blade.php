@@ -104,25 +104,25 @@
 
         <div class="col-lg-3 col-md-4 col-xs-6">
           <div class="supporter-logo">
-            <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
           </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
           <div class="supporter-logo">
-            <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
           </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
           <div class="supporter-logo">
-            <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
           </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
           <div class="supporter-logo">
-            <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
           </div>
         </div>
 

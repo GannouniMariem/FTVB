@@ -36,7 +36,7 @@ Elle est reconnue par les autorités compétentes tunisiennes comme étant la se
                    </div>
                 </div>
                 <div class="col-md-5 col-sm-5 col-xs-12">
-                   <img class="img-responsive" src="images/historique.jpg" alt="#" />
+                   <img class="img-responsive" src="/front-office/images/historique.jpg" alt="#" />
                 </div>
              </div>
           </div>

@@ -266,19 +266,20 @@
                  </div>
               </div>
               <div class="col-lg-8 col-sm-8 col-xs-12">
+                 @foreach ($articles as $article )
                  <div class="news-post-holder">
             
-                    <div class="news-post-widget">
-                       <img class="img-responsive" src="/front-office/images/meeting.png" alt="">
-                       <div class="news-post-detail">
-                          <h2><a href="blog-detail.html">استقبال وزيرة شؤون الشباب و الرياضة السيدة سنية بن الشيخ لرئيس الجامعة التونسية للكرة الطائرة الدكتور فراس الفالح,</a></h2>
-                          <p>
-                             استقبال وزيرة شؤون الشباب و الرياضة السيدة سنية بن الشيخ ظهر يوم الاربعاء 04 سبتمبر 2019 لرئيس الجامعة التونسية للكرة الطائرة الدكتور فراس الفالح و نائبه السيد محسن بن طالب  و السيد محمد صالح المنكبي رئيس اللجنة المركزية للبطولة و الكأس و التحكيم</p>
-                          <span class="date">20 mars 2021</span>                          
-                       </div>
-                    </div>
-                    
-                 </div>
+                  <div class="news-post-widget">
+                     <img class="img-responsive" src="{{'/img'.'/'.$article->attachment}}" alt="">
+                     <div class="news-post-detail">
+                        <p>
+                           {!! $article->description !!}
+                           <span class="date">20 mars 2021</span>                          
+                     </div>
+                  </div>
+                  
+               </div>
+                 @endforeach
               </div>
            </div>
         </div>
@@ -324,246 +325,88 @@
            </div>
            <div class="row">
               <div class="col-sm-10 col-sm-offset-1">
-               <div class="col-md-4 col-sm-6">
-                   <div class="card-container">
-                      <div class="card">
-                          <div class="front">
-                          
-                             <div class="user">
-                                <img class="img-circle" src="/front-office/images/vol men.jpg"/>
-                            </div>
-                              <div class="content">
-                                  <div class="main" >
-                                      <h3 class="name">Ahmed Ben Salah</h3>
-                                      <p class="profession">Libero</p>
-                                   
-                                  </div>
-                                  
-                              </div>
-                          </div> 
-                          <div class="back">
-                              <div class="header">
-                                  <h5 class="motto"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
-                              </div>
-                              <div class="content">
-                                  <div class="main">
-                                      <h4 class="text-center">Etoile.SS</h4>
-                                      <div class="feature-matchs">
-                                         <table class="table table-bordered table-hover">
-                                            <thead>
-                                               <tr bgcolor="#D80E2A"  >
-                                                  <th>Match</th>
-                                                  <th>But</th>
-                                                  <th>C.R</th>
-                                                  <th>C.J</th>
-                                                  <th>Block</th>
-                                                 
-                                               </tr>
-                                            </thead>
-                                            <tbody>
-                                               <tr>
-                                                  <td>35</td>
-                                                  <td>10</td>
-                                                  <td>2</td>
-                                                  <td>0</td>
-                                                  <td>10</td>
-                                               </tr>
-                                              
-                                               </tr>
-                                            </tbody>
-                                         </table>
-                                      </div>
-      
-                                      <div class="stats-container">
-                                          <div class="stats">
-                                              <h4>Taille</h4>
-                                              <p>
-                                                  190 cm
-                                              </p>
-                                          </div>
-                                          <div class="stats">
-                                              <h4>Poids</h4>
-                                              <p>
-                                                  78 kg
-                                              </p>
-                                          </div>
-                                          <div class="stats">
-                                              <h4>Age</h4>
-                                              <p>
-                                                  27
-                                              </p>
-                                          </div>
-                                      </div>
-      
-                                  </div>
-                              </div>
-                              <div class="footer">
-                                <li><a href="joueur">Plus detailles</a></li>
-                              </div>
-                          </div> 
-                      </div> 
-                  </div> 
-              </div> 
-    
-      <div class="col-md-4 col-sm-6">
-        <div class="card-container">
-           <div class="card">
-               <div class="front">
-                   
-                 <div class="user">
-                    <img class="img-circle" src="/front-office/images/vol men.jpg"/>
-                </div>
-                   <div class="content">
-                       <div class="main">
-                           <h3 class="name">Ahmed Ben Salah</h3>
-                           <p class="profession">Libero</p>
-                    
-                       </div>
-                       
-                   </div>
-               </div> 
-               <div class="back">
-                   <div class="header">
-                    <h5 class="motto"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
-                   </div>
-                   <div class="content">
-                       <div class="main">
-                           <h4 class="text-center">Esperance tunisien</h4>
-                           <div class="feature-matchs">
-                             <table class="table table-bordered table-hover">
-                                <thead>
-                                   <tr bgcolor="#D80E2A"  >
-                                      <th>Match</th>
-                                      <th>But</th>
-                                      <th>C.R</th>
-                                      <th>C.J</th>
-                                      <th>Block</th>
-                                     
-                                   </tr>
-                                </thead>
-                                <tbody>
-                                   <tr>
-                                      <td>35</td>
-                                      <td>10</td>
-                                      <td>2</td>
-                                      <td>0</td>
-                                      <td>10</td>
-                                   </tr>
-                                  
-                                   </tr>
-                                </tbody>
-                             </table>
-                          </div>
-
-                           <div class="stats-container">
-                               <div class="stats">
-                                   <h4>Taille</h4>
-                                   <p>
-                                       182 cm
-                                   </p>
-                               </div>
-                               <div class="stats">
-                                   <h4>Poids</h4>
-                                   <p>
-                                       79 kg
-                                   </p>
-                               </div>
-                               <div class="stats">
-                                   <h4>Age</h4>
-                                   <p>
-                                       31
-                                   </p>
-                               </div>
-                           </div>
-
-                       </div>
-                   </div>
-                   <div class="footer">
-                     <li><a href="joueur">Savoir plus</a></li>
-                   </div>
-               </div> 
-           </div> 
-       </div>
-   </div> 
-              <div class="col-md-4 col-sm-6">
+                 @foreach ($joueurs as $joueur)
+                 <div class="col-md-4 col-sm-6">
                   <div class="card-container">
-                      <div class="card">
-                          <div class="front">        
-                              <div class="user">
-                                  <img class="img-circle" src="/front-office/images/vol men.jpg"/>
-                              </div>
-                              <div class="content">
-                                  <div class="main">
-                                      <h3 class="name">Kamel Tawfik</h3>
-                                      <p class="profession">Libero</p>
-                                  </div>
-                              </div>
-                          </div> 
-                          <div class="back">
-                              <div class="header">
-                                <h5 class="motto"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
-                              </div>
-                              <div class="content">
-                                  <div class="main">
-                                      <h4 class="text-center">Libero</h4>
-                                      <div class="feature-matchs">
-                                         <table class="table table-bordered table-hover">
-                                            <thead>
-                                               <tr bgcolor="#D80E2A"  >
-                                                  <th>Match</th>
-                                                  <th>But</th>
-                                                  <th>C.R</th>
-                                                  <th>C.J</th>
-                                                  <th>Block</th>
-                                                 
-                                               </tr>
-                                            </thead>
-                                            <tbody>
-                                               <tr>
-                                                  <td>35</td>
-                                                  <td>10</td>
-                                                  <td>2</td>
-                                                  <td>0</td>
-                                                  <td>10</td>
-                                               </tr>
-                                              
-                                               </tr>
-                                            </tbody>
-                                         </table>
-                                      </div>
-      
-                                      <div class="stats-container">
-                                          <div class="stats">
-                                              <h4>Taille</h4>
-                                              <p>
-                                                  185 cm
-                                              </p>
-                                          </div>
-                                          <div class="stats">
-                                              <h4>Poids</h4>
-                                              <p>
-                                                  70 kg
-                                              </p>
-                                          </div>
-                                          <div class="stats">
-                                              <h4>Age</h4>
-                                              <p>
-                                                  28
-                                              </p>
-                                          </div>
-                                         
-                                      </div>
-      
-                                  </div>
-                              </div>
-                              
-                              <div class="footer">
-                                <li><a href="joueur">Plus detailles</a></li>
-                              </div>
-                          </div>
-                      </div> 
-                  </div>
-              </div> 
+                     <div class="card">
+                         <div class="front">
+                         
+                            <div class="user">
+                               <img class="img-circle" src="/front-office/images/vol men.jpg"/>
+                           </div>
+                             <div class="content">
+                                 <div class="main" >
+                                     <h3 class="name">{{$joueur->nom}}</h3>
+                                     <p class="profession">{{$joueur->post}}</p>
+                                  
+                                 </div>
+                                 
+                             </div>
+                         </div> 
+                         <div class="back">
+                             <div class="header">
+                                 <h5 class="motto"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportive tunisien"</h5>
+                             </div>
+                             <div class="content">
+                                 <div class="main">
+                                     <h4 class="text-center">{{$joueur->post}}</h4>
+                                     <div class="feature-matchs">
+                                        <table class="table table-bordered table-hover">
+                                           <thead>
+                                              <tr bgcolor="#D80E2A"  >
+                                                 <th>Match</th>
+                                                 <th>But</th>
+                                                 <th>C.R</th>
+                                                 <th>C.J</th>
+                                                 <th>Block</th>
+                                                
+                                              </tr>
+                                           </thead>
+                                           <tbody>
+                                              <tr>
+                                                 <td>35</td>
+                                                 <td>{{$joueur->buts}}</td>
+                                                 <td>2</td>
+                                                 <td>0</td>
+                                                 <td>10</td>
+                                              </tr>
+                                             
+                                              </tr>
+                                           </tbody>
+                                        </table>
+                                     </div>
+     
+                                     <div class="stats-container">
+                                         <div class="stats">
+                                             <h4>Taille</h4>
+                                             <p>
+                                                {{$joueur->taille}}                                             </p>
+                                         </div>
+                                         <div class="stats">
+                                             <h4>Poids</h4>
+                                             <p>
+                                                {{$joueur->poids}}                                             </p>
+                                         </div>
+                                         <div class="stats">
+                                             <h4>Age</h4>
+                                             <p>
+                                                 27
+                                             </p>
+                                         </div>
+                                     </div>
+     
+                                 </div>
+                             </div>
+                             <div class="footer">
+                               <li><a href="joueur">Plus detailles</a></li>
+                             </div>
+                         </div> 
+                     </div> 
+                 </div> 
+             </div> 
+                 @endforeach
+               
+    
               </div>
           </div> 
           <div class="space-100"></div>

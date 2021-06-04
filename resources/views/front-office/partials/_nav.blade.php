@@ -58,23 +58,23 @@
                                     <li class="nav-item dropdown ">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Volleyball</a>
                                     <div class="dropdown-menu" aria-labelledby="dropdown04">
-                                        <a class="dropdown-item" href="equipe nationale senior hommes.html">Equipe Nationale seniors hommes</a>
-                                        <a class="dropdown-item" href="equipe nationale senior Dames.html">Equipe Nationale seniors dames</a>
-                                        <a class="dropdown-item" href="equipe nationale jeune garcons.html">Equipe Nationale jeunes garçons</a>
-                                        <a class="dropdown-item" href="equipe nationale jeune filles.html">Equipe Nationale jeunes filles</a>
-                                        <a class="dropdown-item" href="Championnat Nationale A senior homme.html">Championnat Nationale A seniors hommes</a>
-                                        <a class="dropdown-item" href="Championnat Nationale A senior Dame.html">Championnat Nationale A seniors dames</a>
-                                        <a class="dropdown-item" href="Championnat Nationale B senior homme.html">Championnat Nationale B seniors hommes</a>
-                                        <a class="dropdown-item" href="Championnat Nationale B senior Dame.html">Championnat Nationale B seniors dames</a>
-                                        <a class="dropdown-item" href="Coupe tunisie senior homme.html">Coupe tunisie seniors hommes</a>
-                                        <a class="dropdown-item" href="Coupe tunisie senior Dame.html">Coupe tunisie seniors dames</a>
+                                        <a class="dropdown-item" href="/equipe nationaleseniorhommes">Equipe Nationale seniors hommes</a>
+                                        <a class="dropdown-item" href="/equipenationaleseniorDames">Equipe Nationale seniors dames</a>
+                                        <a class="dropdown-item" href="/equipenationalejeunegarcons">Equipe Nationale jeunes garçons</a>
+                                        <a class="dropdown-item" href="/equipenationalejeunefilles">Equipe Nationale jeunes filles</a>
+                                        <a class="dropdown-item" href="/ChampionnatNationaleAseniorhomme">Championnat Nationale A seniors hommes</a>
+                                        <a class="dropdown-item" href="/ChampionnatNationaleAseniorDame">Championnat Nationale A seniors dames</a>
+                                        <a class="dropdown-item" href="/ChampionnatNationaleBseniorhomme">Championnat Nationale B seniors hommes</a>
+                                        <a class="dropdown-item" href="/ChampionnatNationaleBseniorDame">Championnat Nationale B seniors dames</a>
+                                        <a class="dropdown-item" href="/Coupetunisieseniorhomme">Coupe tunisie seniors hommes</a>
+                                        <a class="dropdown-item" href="/CoupetunisieseniorDame">Coupe tunisie seniors dames</a>
                                     </div>
                                     </li>
                                     <li class="nav-item dropdown ">
                                         <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Beach Volleyball</a>
                                         <div class="dropdown-menu" aria-labelledby="dropdown04">
                                         <a class="dropdown-item" href="/beachvolleycircuitnationale">Circuit  Nationale</a>
-                                        <a class="dropdown-item" href="beach volley les equipes nationale.html">Les équipes Nationaux</a>
+                                        <a class="dropdown-item" href="/beachvolleylesequipesnationale">Les équipes Nationaux</a>
                                         </div>
                                     </li>
                                         <li class="nav-item dropdown ">
@@ -84,7 +84,7 @@
                                             <a class="dropdown-item" href="media-video.html">Videos</a> 
                                         </div>
                                         </li>
-                                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                                        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
                             </ul>
                     </div>
             </div>

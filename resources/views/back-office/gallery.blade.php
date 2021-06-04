@@ -15,9 +15,7 @@
                         <button type="submit" class="btn btn-block btn-primary">Enregistrer</button>
             </form> 
                 
-                <ol class="breadcrumb">
-                
-                </ol>
+                <ol class="breadcrumb"></ol>
             </div>
         </div>
         <!-- /.row -->

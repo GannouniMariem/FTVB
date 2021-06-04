@@ -19,7 +19,7 @@
           <div class="col-md-9">
              <div class="feature-post">
                 <div class="feature-img">
-                   <img src="images/css dame.jpg" class="img-responsive" alt="#" />
+                   <img src="/front-office/images/css dame.jpg" class="img-responsive" alt="#" />
                 </div>
                 <div class="feature-cont">
                    <div class="post-people">
@@ -42,7 +42,7 @@
              <div class="feature-post small-blog">
                 <div class="col-md-5">
                    <div class="feature-img">
-                      <img src="images/im 6.png" class="img-responsive" alt="#" />
+                      <img src="/front-office/images/im 6.png" class="img-responsive" alt="#" />
                    </div>
                 </div>
                 <div class="col-md-7">
@@ -69,7 +69,7 @@
              <div class="feature-post small-blog">
               <div class="col-md-5">
                  <div class="feature-img">
-                    <img src="images/im 6.png" class="img-responsive" alt="#" />
+                    <img src="/front-office/images/im 6.png" class="img-responsive" alt="#" />
                  </div>
               </div>
               <div class="col-md-7">
@@ -96,7 +96,7 @@
            <div class="feature-post small-blog">
               <div class="col-md-5">
                  <div class="feature-img">
-                    <img src="images/im 6.png" class="img-responsive" alt="#" />
+                    <img src="/front-office/images/im 6.png" class="img-responsive" alt="#" />
                  </div>
               </div>
               <div class="col-md-7">
@@ -140,23 +140,23 @@
                    <div class="team-btw-match">
                       <ul>
                          <li>
-                            <img src="images/tunisia flag.png" alt="">
+                            <img src="/front-office/images/tunisia flag.png" alt="">
                             <span>Tunisie</span>
                          </li>
                          <li class="vs"><span>vs</span></li>
                          <li>
-                            <img src="images/egypt flag.png" alt="">
+                            <img src="/front-office/images/egypt flag.png" alt="">
                             <span>Egypte</span>
                          </li>
                       </ul>
                       <ul>
                          <li>
-                            <img src="images/tunisia flag.png" alt="">
+                            <img src="/front-office/images/tunisia flag.png" alt="">
                             <span>Tunisie</span>
                          </li>
                          <li class="vs"><span>vs</span></li>
                          <li>
-                            <img src="images/belgium flag.png" alt="">
+                            <img src="/front-office/images/belgium flag.png" alt="">
                             <span>Belgique</span>
                          </li>
                       </ul>
@@ -165,13 +165,13 @@
              </aside>
              <aside id="sidebar" class="left-bar">
                 <div class="banner-sidebar">
-                   <img class="img-responsive" src="images/pub 2.png" alt="#">
+                   <img class="img-responsive" src="/front-office/images/pub 2.png" alt="#">
                   
                 </div>
              </aside>
              <aside id="sidebar" class="right-bar">
                 <div class="banner">
-                   <img class="img-responsive" src="images/pub.png" alt="#">
+                   <img class="img-responsive" src="/front-office/images/pub.png" alt="#">
                 </div>
              </aside>
              <aside id="sidebar" class="left-bar">
@@ -188,25 +188,25 @@
                       <tbody>
                          <tr>
                             <td>16</td>
-                            <td><img src="images/netherlands flag.png" alt="">Pays-Bas</td>
+                            <td><img src="/front-office/images/netherlands flag.png" alt="">Pays-Bas</td>
                             <td>171</td>
                        
                          </tr>
                          <tr>
                             <td>17</td>
-                            <td><img src="images/tunisia flag.png" alt="">Tunisie</td>
+                            <td><img src="/front-office/images/tunisia flag.png" alt="">Tunisie</td>
                             <td>168</td>
                             
                          </tr>
                          <tr>
                             <td>18</td>
-                            <td><img src="images/egypt flag.png" alt="">Eqypte</td>
+                            <td><img src="/front-office/images/egypt flag.png" alt="">Eqypte</td>
                             <td>167</td>
                            
                          </tr>
                          <tr>
                             <td>19</td>
-                            <td><img src="images/belgium flag.png" alt="">Belgique</td>
+                            <td><img src="/front-office/images/belgium flag.png" alt="">Belgique</td>
                             <td>164</td>
                          
                          </tr>
@@ -248,64 +248,64 @@
           
                     <div class="col-lg-3 col-md-4">
                       <div class="pictures">
-                        <a href="images/im 6.png" class="glightbox">
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox">
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
           
                     <div class="col-lg-3 col-md-4">
                       <div class="pictures">
-                        <a href="images/im 6.png" class="glightbox" >
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox" >
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
           
                     <div class="col-lg-3 col-md-4">
                       <div class="pictures">
-                        <a href="images/im 6.png" class="glightbox" >
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox" >
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
           
                     <div class="col-lg-3 col-md-4">
                       <div class="pictures">
-                        <a href="images/im 6.png" class="glightbox">
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox">
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
           
                     <div class="col-lg-3 col-md-4">
                       <div class="venue-gallery">
-                        <a href="images/im 6.png" class="glightbox">
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox">
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
           
                     <div class="col-lg-3 col-md-4">
                       <div class="venue-gallery">
-                        <a href="images/im 6.png" class="glightbox" ">
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox" ">
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
           
                     <div class="col-lg-3 col-md-4">
                       <div class="venue-gallery">
-                        <a href="images/im 6.png" class="glightbox" >
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox" >
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
           
                     <div class="col-lg-3 col-md-4">
                       <div class="venue-gallery">
-                        <a href="images/im 6.png" class="glightbox">
-                          <img src="images/im 6.png" alt="" class="img-fluid">
+                        <a href="/front-office/images/im 6.png" class="glightbox">
+                          <img src="/front-office/images/im 6.png" alt="" class="img-fluid">
                         </a>
                       </div>
                     </div>
@@ -326,7 +326,7 @@
 </div>
 </div>
 
-<div class="dark-section" style="background:url(images/volleypic\ 2.jpg)">
+<div class="dark-section" style="background:url(/front-office/images/volleypic\ 2.jpg)">
   <div class="container">
      <div class="row">
         <div class="col-md-12 col-sm-12">
@@ -338,7 +338,7 @@
                          <div class="front">
                          
                             <div class="user">
-                               <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                               <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                            </div>
                              <div class="content">
                                  <div class="main" >
@@ -351,7 +351,7 @@
                          </div> 
                          <div class="back">
                              <div class="header">
-                                 <h5 class="equipe"><img src="images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                                 <h5 class="equipe"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                              </div>
                              <div class="content">
                                  <div class="main">
@@ -419,7 +419,7 @@
               <div class="front">
                   
                 <div class="user">
-                   <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                   <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                </div>
                   <div class="content">
                       <div class="main">
@@ -432,7 +432,7 @@
               </div> 
               <div class="back">
                   <div class="header">
-                   <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                   <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                   </div>
                   <div class="content">
                       <div class="main">
@@ -498,7 +498,7 @@
                      <div class="card">
                          <div class="front">        
                              <div class="user">
-                                 <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                                 <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                              </div>
                              <div class="content">
                                  <div class="main">
@@ -509,7 +509,7 @@
                          </div> 
                          <div class="back">
                              <div class="header">
-                               <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                               <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                              </div>
                              <div class="content">
                                  <div class="main">
@@ -583,7 +583,7 @@
                       <div class="front">
                       
                          <div class="user">
-                            <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                            <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                         </div>
                           <div class="content">
                               <div class="main" >
@@ -596,7 +596,7 @@
                       </div> 
                       <div class="back">
                           <div class="header">
-                              <h5 class="equipe"><img src="images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                              <h5 class="equipe"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                           </div>
                           <div class="content">
                               <div class="main">
@@ -664,7 +664,7 @@
            <div class="front">
                
              <div class="user">
-                <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
             </div>
                <div class="content">
                    <div class="main">
@@ -677,7 +677,7 @@
            </div> 
            <div class="back">
                <div class="header">
-                <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                </div>
                <div class="content">
                    <div class="main">
@@ -743,7 +743,7 @@
                   <div class="card">
                       <div class="front">        
                           <div class="user">
-                              <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                              <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                           </div>
                           <div class="content">
                               <div class="main">
@@ -754,7 +754,7 @@
                       </div> 
                       <div class="back">
                           <div class="header">
-                            <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                            <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                           </div>
                           <div class="content">
                               <div class="main">
@@ -828,7 +828,7 @@
                    <div class="front">
                    
                       <div class="user">
-                         <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                         <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                      </div>
                        <div class="content">
                            <div class="main" >
@@ -841,7 +841,7 @@
                    </div> 
                    <div class="back">
                        <div class="header">
-                           <h5 class="equipe"><img src="images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                           <h5 class="equipe"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                        </div>
                        <div class="content">
                            <div class="main">
@@ -909,7 +909,7 @@
         <div class="front">
             
           <div class="user">
-             <img class="img-circle" src="images/empty-pfp2.jpg"/>
+             <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
          </div>
             <div class="content">
                 <div class="main">
@@ -922,7 +922,7 @@
         </div> 
         <div class="back">
             <div class="header">
-             <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+             <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
             </div>
             <div class="content">
                 <div class="main">
@@ -988,7 +988,7 @@
                <div class="card">
                    <div class="front">        
                        <div class="user">
-                           <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                           <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                        </div>
                        <div class="content">
                            <div class="main">
@@ -999,7 +999,7 @@
                    </div> 
                    <div class="back">
                        <div class="header">
-                         <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                         <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                        </div>
                        <div class="content">
                            <div class="main">
@@ -1073,7 +1073,7 @@
                 <div class="front">
                 
                    <div class="user">
-                      <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                      <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                   </div>
                     <div class="content">
                         <div class="main" >
@@ -1086,7 +1086,7 @@
                 </div> 
                 <div class="back">
                     <div class="header">
-                        <h5 class="equipe"><img src="images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                        <h5 class="equipe"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                     </div>
                     <div class="content">
                         <div class="main">
@@ -1154,7 +1154,7 @@
      <div class="front">
          
        <div class="user">
-          <img class="img-circle" src="images/empty-pfp2.jpg"/>
+          <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
       </div>
          <div class="content">
              <div class="main">
@@ -1167,7 +1167,7 @@
      </div> 
      <div class="back">
          <div class="header">
-          <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+          <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
          </div>
          <div class="content">
              <div class="main">
@@ -1233,7 +1233,7 @@
             <div class="card">
                 <div class="front">        
                     <div class="user">
-                        <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                        <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                     </div>
                     <div class="content">
                         <div class="main">
@@ -1244,7 +1244,7 @@
                 </div> 
                 <div class="back">
                     <div class="header">
-                      <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                      <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                     </div>
                     <div class="content">
                         <div class="main">
@@ -1318,7 +1318,7 @@
              <div class="front">
              
                 <div class="user">
-                   <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                   <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                </div>
                  <div class="content">
                      <div class="main" >
@@ -1331,7 +1331,7 @@
              </div> 
              <div class="back">
                  <div class="header">
-                     <h5 class="equipe"><img src="images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                     <h5 class="equipe"><img src="/front-office/images/ess midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                  </div>
                  <div class="content">
                      <div class="main">
@@ -1399,7 +1399,7 @@
   <div class="front">
       
     <div class="user">
-       <img class="img-circle" src="images/empty-pfp2.jpg"/>
+       <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
    </div>
       <div class="content">
           <div class="main">
@@ -1412,7 +1412,7 @@
   </div> 
   <div class="back">
       <div class="header">
-       <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+       <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
       </div>
       <div class="content">
           <div class="main">
@@ -1478,7 +1478,7 @@
          <div class="card">
              <div class="front">        
                  <div class="user">
-                     <img class="img-circle" src="images/empty-pfp2.jpg"/>
+                     <img class="img-circle" src="/front-office/images/empty-pfp2.jpg"/>
                  </div>
                  <div class="content">
                      <div class="main">
@@ -1489,7 +1489,7 @@
              </div> 
              <div class="back">
                  <div class="header">
-                   <h5 class="equipe"><img src="images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
+                   <h5 class="equipe"><img src="/front-office/images/est midium.png" alt=""><br>"Esperance Sportif tunisien"</h5>
                  </div>
                  <div class="content">
                      <div class="main">
@@ -1573,25 +1573,25 @@
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="supporter-logo">
-          <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+          <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="supporter-logo">
-          <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+          <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="supporter-logo">
-          <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+          <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="supporter-logo">
-          <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+          <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
         </div>
       </div>
 
