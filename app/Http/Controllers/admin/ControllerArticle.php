@@ -5,9 +5,10 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use App\Models\article;
 use Illuminate\Http\Request;
-
+use App\Http\Traits\GeneralTrait;
 class ControllerArticle extends Controller
 {
+    use GeneralTrait;
    /**
          * Display a listing of the resource.
          *
@@ -15,9 +16,10 @@ class ControllerArticle extends Controller
          */
         public function index()
         {
-            $article = article::get();
+            $articles = article::get();
     
-            return response()->json($article);
+            return view('back-office.article')->with('articles',$articles);
+
         }
     
         /**
@@ -27,15 +29,17 @@ class ControllerArticle extends Controller
          */
         public function create(Request $request)
         {
+            $file_name = $this->saveImage($request->file,'img');
+
             $article = new article();
     
             $article->description = $request->input('description');
-            $article->attachment = $request->input('attachment');
+            $article->attachment = $file_name;
 
            
             $article->save();
     
-            return response()->json($article);
+            return redirect()->back()->with(['sucess'=>'article successfully added']); 
     
         }
     

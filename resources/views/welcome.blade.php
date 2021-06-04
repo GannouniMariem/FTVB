@@ -1,4 +1,84 @@
 @extends('front-office.layout.main')
+@section('slide')
+   <div class="full-slider">
+      <div id="carousel-example-generic" class="carousel slide">
+         <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner" role="listbox">
+
+            <div class="item active deepskyblue" data-ride="carousel" data-interval="5000">
+               <div class="carousel-caption">
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                     <div class="slider-contant" data-animation="animated fadeInRight">
+                        <h3>La Fédération tunisienne <br>de <span class="color-yellow">volleyball</span><br>présente</h3>
+                        <p>le Mondiale 2022 en brazil<br>la liste des equipes qualifiéz</p>
+                        <button class="btn btn-primary btn-lg">Savoir plus</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      
+      
+            <div class="item skyblue" data-ride="carousel" data-interval="5000">
+               <div class="carousel-caption">
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                     <div class="slider-contant" data-animation="animated fadeInRight">
+                        <h3>beach volleyball<br>En <span class="color-yellow">Tunisie</span><br>Aujourd'hui</h3>
+                        <p>You can make a case for several potential winners of<br>the expanded European Championships.</p>
+                        <button class="btn btn-primary btn-lg">Savoir plus</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="item darkerskyblue" data-ride="carousel" data-interval="5000">
+               <div class="carousel-caption">
+                  <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12"></div>
+                  <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                     <div class="slider-contant" data-animation="animated fadeInRight">
+                        <h3>Les équipes<br>Nationale <span class="color-yellow">Dames</span><br>qualifié</h3>
+                        <p>Les qualification de Mondiale 2022 en chine</p>
+                        <button class="btn btn-primary btn-lg">Savoir plus</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+   
+      
+         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
+
+      <div class="news">
+         <div class="container">
+            <div class="heading-slider">
+               <p class="headline"><i class="fa fa-star color-yellow" aria-hidden="true"></i> Grands titres :</p>
+   
+               <h1>
+               <a href="" class="typewrite" data-period="20ms" data-type='[ "رسالة تهنئة من رئيس الاتحاد الدولي للكرة الطائرة الدكتور اريى قراسة لرئيس الجامعة التونسية للكرة الطائرة الدكتور فراس الفالح بخصوص ", "Suite à la participation du président de la Fédération Tunisienne de Volleyball Dr Firas El Felah au congrès de la FIVB au Mexique et en présence de Mr Eric Tanguy, président de la Fédération Française de Volleyball, Dr Firas El Felah a signé une convention  avec la FFVOLLEY le 16/11/2018. "]'>
+               <span class="wrap"></span>
+               </a>
+               </h1>	   
+               <span class="wrap"></span>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+@endsection
 
     @section('content')
     

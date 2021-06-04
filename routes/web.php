@@ -22,6 +22,11 @@ Route::get('/admin', function () {
     return view('back-office.layout.main');
 });
 
+Route::get('/ftvbpresentation',function(){
+    return view('front-office.ftvb presentation');
+
+});
+
 Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],function() {
 
     Route::post('add','ControllerAdmin@create');
@@ -62,6 +67,15 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],
 
     });
 
+    Route::group(['prefix' => 'article'],function(){
+        
+        Route::get('','ControllerArticle@index');
+        Route::post('add','ControllerArticle@create');
+        Route::post('update','ControllerArticle@update');
+        Route::get('delete/{id}','ControllerArticle@destroy');
+
+    });
+
     Route::group(['prefix' => 'gallery'],function(){
         
         Route::get('','ControllerGallery@index');
@@ -70,3 +84,10 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],
     });
 
 });
+
+Route::group(['namespace' => 'App\Http\Controllers\frontOffice'],function() {
+
+    Route::get('beachvolleycircuitnationale','controllerBeachVolley@index');
+
+});
+

@@ -8,6 +8,10 @@
     <!-- Bootstrap Core CSS -->
     <link href="/back-office/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="/plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/plugins/bower_components/gallery/css/animated-masonry-gallery.css" />
+    <link rel="stylesheet" type="text/css" href="/plugins/bower_components/fancybox/ekko-lightbox.min.css" />
+    <!-- Dropzone css -->
+    <link href="../plugins/bower_components/dropzone-master/dist/dropzone.css" rel="stylesheet" type="text/css" />
     <!-- animation CSS -->
     <link href="/back-office/css/animate.css" rel="stylesheet">
     <!-- Custom CSS -->

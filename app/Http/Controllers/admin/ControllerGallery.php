@@ -20,7 +20,7 @@ class ControllerGallery extends Controller
         {
             $gallery = gallery::get();
     
-            return response()->json($gallery);
+            return view('back-office.gallery')->with('gallery',$gallery);
         }
 
 
@@ -33,7 +33,8 @@ class ControllerGallery extends Controller
          */
         public function create(Request $request)
         {
-          $file_name = $this->saveImage($request->image,'img');
+          
+          $file_name = $this->saveImage($request->file,'gallery');
 
             $gallery = new gallery();
     
@@ -41,7 +42,8 @@ class ControllerGallery extends Controller
            
             $gallery->save();
             
-            return response()->json($gallery);
+            return redirect()->back()->with(['sucess'=>'image successfully added']); 
+
     
         }
 }
