@@ -5,6 +5,7 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use App\Models\matchs;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ControllerMatch extends Controller
 {
@@ -15,9 +16,9 @@ class ControllerMatch extends Controller
          */
         public function index()
         {
-            $match = matchs::get();
+            $matchs = matchs::get();
     
-            return response()->json($match);
+            return view('back-office.match')->with('matchs',$matchs);
         }
     
         /**
@@ -27,6 +28,23 @@ class ControllerMatch extends Controller
          */
         public function create(Request $request)
         {
+              //validate data before insert to database
+
+              $validator = Validator::make($request->all(),[
+                    
+                "equipe1"=>"required",
+                "equipe2"=>"required ",
+                "date"=>"required",
+                "lieu"=>"required",
+                "resultat"=>"required"
+            
+
+            ]);
+
+            if($validator->fails()){
+                return redirect()->back()->withErrors($validator)->withInput($request->all());
+            }
+          //insert
             $match = new matchs();
     
             $match->equipe1 = $request->input('equipe1');
@@ -37,7 +55,7 @@ class ControllerMatch extends Controller
            
             $match->save();
     
-            return response()->json($match);
+            return redirect()->back()->with(['sucess'=>'match successfully added']); 
     
         }
     
@@ -76,7 +94,7 @@ class ControllerMatch extends Controller
     
             $match->save();
     
-            return response()->json($match);
+            return redirect()->back()->with(['sucess'=>'match successfully updated']);    
         }
     
         /**
@@ -90,6 +108,8 @@ class ControllerMatch extends Controller
         {
             $match = matchs::find($id);
             $match->delete();
+
+            return redirect()->back()->with(['sucess'=>'match successfully deleted']);        
     
         }
 }

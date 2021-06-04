@@ -1,10 +1,7 @@
 @extends('front-office.layout.main')
 
     @section('content')
-       
- 
-
-
+    
      <section id="contant" class="contant">
         <div class="main-heading sytle-2">
            <h2>Actualité</h2>
@@ -190,6 +187,7 @@
               </div>
               <div class="col-lg-8 col-sm-8 col-xs-12">
                  <div class="news-post-holder">
+            
                     <div class="news-post-widget">
                        <img class="img-responsive" src="/front-office/images/meeting.png" alt="">
                        <div class="news-post-detail">
@@ -199,24 +197,7 @@
                           <span class="date">20 mars 2021</span>                          
                        </div>
                     </div>
-                    <div class="news-post-widget">
-                       <img class="img-responsive" src="/front-office/images/congres.jpg" alt="">
-                       <div class="news-post-detail">
-                          <h2><a href="blog-detail.html">SIGNATURE D’UNE PREMIERE CONVENTION ENTRE LA FTVB ET LA FFVOLLEY</a></h2>
-                          <p> Suite à la participation du président de la Fédération Tunisienne de Volleyball Dr Firas El Felah au congrès de la...</p>
-                          <span class="date">20 mars 2021</span>
-                       </div>
-                    </div>
-                 </div>
-                 <div class="news-post-holder">
-                    <div class="news-post-widget">
-                       <img class="img-responsive" src="/front-office/images/css dame.jpg" alt="">
-                       <div class="news-post-detail">
-                          <h2><a href="blog-detail.html">Le Club sportif Sfaxien retrouve son piédestal</a></h2>
-                          <p> En battant l’esperance tunisien sur le score de trois sets à zéro (25-22, 25-20, 25-15), le club sfaxien a remporté son 9ème titre de champion d’Afrique. ...</p>
-                          <span class="date">20 mars 2021</span>
-                       </div>
-                    </div>
+                    
                  </div>
               </div>
            </div>

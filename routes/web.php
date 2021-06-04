@@ -58,7 +58,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],
         Route::get('','ControllerMatch@index');
         Route::post('add','ControllerMatch@create');
         Route::post('update','ControllerMatch@update');
-        Route::delete('delete/{id}','ControllerMatch@destroy');
+        Route::get('delete/{id}','ControllerMatch@destroy');
 
     });
 

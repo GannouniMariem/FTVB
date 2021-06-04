@@ -1,6 +1,4 @@
-<div id="preloader">
-    <img class="preloader" src="/front-office/images/preloader.gif" alt="">
-</div>
+
 
 <section id="top">
 <header>

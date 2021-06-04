@@ -6,6 +6,11 @@
 </head>
 
 <body>
+  
+  <div id="preloader">
+    <img class="preloader" src="/front-office/images/preloader.gif" alt="">
+  </div>
+
   <section class="container-fluid p-0">      
         @include('front-office.partials._nav')
   </section>
