@@ -17,9 +17,8 @@
                             </span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <li><a href="register.html"><i class="ti-user"></i>Login</a></li>
                             <li><a href="javascript:void(0)"><i class="ti-user"></i> My Profile</a></li>
-                            <li><a href="javascript:void(0)"><i class="fa fa-power-off"></i> Logout</a></li>
+                            <li><a href="/logout"><i class="fa fa-power-off"></i> Logout</a></li>
                         </ul>
                 </li>
                 <li class="nav-small-cap m-t-10">--Main Menu</li>

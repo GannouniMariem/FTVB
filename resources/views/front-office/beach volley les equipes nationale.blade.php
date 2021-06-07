@@ -18,30 +18,23 @@
         <div class="row">
             <div class="col-lg-9 col-sm-12 col-xs-12">
                 <div class="news-post-holder">
+                    @foreach ($articles as $article)
                     <div class="col-lg-6 col-sm-6 col-xs-12">
-                    <div class="news-post-widget">
-                        <img class="img-responsive" src="images/beéach volley.png" alt="">
-                        <div class="news-post-detail">
-                        <h2><a href="blog-detail.html">L'esperance sportive de tunisie est champion de tunisie</a></h2>
-                            <p>’Espérance Sportive de Tunis a remporté ce samedi le titre du championnat Tunisie Télécom de volleyball pour la 21e fois de son histoire et le quatrième consécutif après sa victoire en barrage contre le CS Sfaxien par trois sets à deux</p>
+                      <div class="news-post-widget">
+                         <img class="img-responsive" src="{{"/img"."/".$article->attachment}}" alt="">
+                         <div class="news-post-detail">
+                         <p>{!! $article->description !!}</p>
                             <span class="date">20 juin 2021</span>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-6 col-xs-12">
-                    <div class="news-post-widget">
-                        <img class="img-responsive" src="images/beéach volley.png" alt="">
-                        <div class="news-post-detail">
-                            <h2><a href="blog-detail.html">L'esperance sportive de tunisie est champion de tunisie</a></h2>
-                            <p>’Espérance Sportive de Tunis a remporté ce samedi le titre du championnat Tunisie Télécom de volleyball pour la 21e fois de son histoire et le quatrième consécutif après sa victoire en barrage contre le CS Sfaxien par trois sets à deux</p>
-                            <span class="date">20 juin 2021</span>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+                         </div>
+                      </div>
+                   </div>
+                    @endforeach
+                    
+                  
+                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="content-widget top-story" style="background: url(images/links\ zone.jpg);">
+            <div class="content-widget top-story" style="background: url(/front-office/images/links\ zone.jpg);">
                 <div class="top-stroy-header">
                     <h2>Communiqués &nbsp  &nbsp &nbsp <a href="#" class="fa fa-fa fa-angle-right"></a></h2>
                     <span class="date">Juin 05, 2021</span>
@@ -76,43 +69,43 @@
         <tbody>
             <tr>
                 <td>16</td>
-                <td><img src="images/netherlands flag.png" alt="">Jerimy brown / Sarah Rolley</td>
+                <td><img src="/front-office/images/netherlands flag.png" alt="">Jerimy brown / Sarah Rolley</td>
                 <td>171</td>
             
             </tr>
             <tr>
                 <td>17</td>
-                <td><img src="images/tunisia flag.png" alt="">Jerimy brown / Sarah Rolley/td>
+                <td><img src="/front-office/images/tunisia flag.png" alt="">Jerimy brown / Sarah Rolley/td>
                 <td>168</td>
                 
             </tr>
             <tr>
                 <td>18</td>
-                <td><img src="images/egypt flag.png" alt="">Jerimy brown / Sarah Rolley</td>
+                <td><img src="/front-office/images/egypt flag.png" alt="">Jerimy brown / Sarah Rolley</td>
                 <td>167</td>
                 
             </tr>
             <tr>
                 <td>19</td>
-                <td><img src="images/belgium flag.png" alt="">Jerimy brown / Sarah Rolley</td>
+                <td><img src="/front-office/images/belgium flag.png" alt="">Jerimy brown / Sarah Rolley</td>
                 <td>164</td>
             
             </tr>
             <tr>
                 <td>17</td>
-                <td><img src="images/tunisia flag.png" alt="">Jerimy brown / Sarah Rolley/td>
+                <td><img src="/front-office/images/tunisia flag.png" alt="">Jerimy brown / Sarah Rolley/td>
                 <td>168</td>
                 
             </tr>
             <tr>
                 <td>18</td>
-                <td><img src="images/egypt flag.png" alt="">Jerimy brown / Sarah Rolley</td>
+                <td><img src="/front-office/images/egypt flag.png" alt="">Jerimy brown / Sarah Rolley</td>
                 <td>167</td>
                 
             </tr>
             <tr>
                 <td>19</td>
-                <td><img src="images/belgium flag.png" alt="">Jerimy brown / Sarah Rolley</td>
+                <td><img src="/front-office/images/belgium flag.png" alt="">Jerimy brown / Sarah Rolley</td>
                 <td>164</td>
             
             </tr>
@@ -133,25 +126,25 @@
 
         <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-            <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
             </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-            <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
             </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-            <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
             </div>
         </div>
 
         <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-            <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+            <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
             </div>
         </div>
 

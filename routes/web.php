@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/admin', function () {
-    return view('back-office.layout.main');
-});
 
 Route::get('/ftvbpresentation',function(){
     return view('front-office.ftvb presentation');
@@ -45,10 +42,27 @@ Route::get('/commutionMedicale',function(){
 
 });
 
-Route::group(['prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],function() {
 
+Route::get('/media-video',function(){
+    return view('front-office.media-video');
+
+});
+
+
+
+Route::post('/login','App\Http\Controllers\admin\AuthController@login');
+Route::get('/login',[App\Http\Controllers\admin\AuthController::class,'show'])->name('login');
+Route::get('/register',[App\Http\Controllers\admin\AuthController::class,'showRegister']);
+Route::post('/register',[App\Http\Controllers\admin\AuthController::class,'create']);
+Route::get('/logout',[App\Http\Controllers\admin\AuthController::class,'logout']);
+Route::group(['middleware' => 'auth','prefix' => 'admin', 'namespace' => 'App\Http\Controllers\admin'],function() {
+    
+    Route::get('/', function () {
+        return view('back-office.layout.main');
+    })->name('admin');
+    
     Route::post('add','ControllerAdmin@create');
-    Route::post('login','AuthController@login');
+ 
     Route::post('logout','AuthController@logout');
     
     Route::group(['prefix' => 'joueur'],function(){
@@ -107,7 +121,21 @@ Route::group(['namespace' => 'App\Http\Controllers\frontOffice'],function() {
 
     
     Route::get('/','ControllerArticle@welcomeindexArticle');
-    Route::get('beachvolleycircuitnationale','controllerBeachVolley@index');
+    Route::get('/equipenationaleseniorhommes','controllerEquipe@index');
+    Route::get('/equipenationaleseniorDames','controllerEquipe@indexDames');
+    Route::get('/equipenationalejeunegarcons','controllerEquipe@indexgarcon');
+    Route::get('/equipenationalejeunefilles','controllerEquipe@indexfilles');
+    Route::get('/Coupetunisieseniorhomme','controllerEquipe@indexCoupeHomme');
+    Route::get('/CoupetunisieseniorDame','controllerEquipe@indexCoupeDame');
+    Route::get('/ChampionnatNationaleAseniorhomme','controllerChampionnat@indexHommeA');
+    Route::get('/ChampionnatNationaleAseniorDame','controllerChampionnat@indexDameA');
+    Route::get('/ChampionnatNationaleBseniorhomme','controllerChampionnat@indexHommeB');
+    Route::get('/ChampionnatNationaleBseniorDame','controllerChampionnat@indexDameB');
+    Route::get('/beachvolleycircuitnationale','controllerBeachVolley@circuitnationale');
+    Route::get('/beachvolleylesequipesnationale','controllerBeachVolley@equipesnationale');
+    Route::get('/mediaImages','controllerMedia@gallery');
+    Route::post('/email', 'EmailController@sendEmail')->name('send.email');
+
 
 });
 

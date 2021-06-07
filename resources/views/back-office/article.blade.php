@@ -23,7 +23,7 @@
                         
                         <div class="col-lg-10 col-md-9 col-sm-8 col-xs-12 mail_listing">
                             <h3 class="box-title">Ajouter un article </h3>
-                            <form action="article/add" method="POST">
+                            <form action="article/add" method="POST" enctype="multipart/form-data">
                                 @csrf
                             <div class="form-group">
                           

@@ -43,22 +43,22 @@
                     <div class="collapse navbar-collapse" id="ftco-nav">
                         
                             <ul class="navbar-nav m-auto">
-                                        <li class="nav-item "><a href="Acceuil.html" class="nav-link">Acceuil</a></li>
+                                        <li class="nav-item "><a href="/" class="nav-link">Acceuil</a></li>
                                         <li class="nav-item dropdown active">
                                         <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FTVB</a>
                                         <div class="dropdown-menu" aria-labelledby="dropdown04">
                                         <a class="dropdown-item" href="/ftvbpresentation">Présentation</a>
-                                        <a class="dropdown-item" href="bureau federale.html">Bureau fédérale</a>
+                                        <a class="dropdown-item" href="/bureaufederale">Bureau fédérale</a>
                                         <a class="dropdown-item" href="#">Direction technique</a>
-                                        <a class="dropdown-item" href="commution Medicale.html">Commution Medicale</a>
-                                        <a class="dropdown-item" href="commution Arbitrage.html">Commution Arbitrage</a>
+                                        <a class="dropdown-item" href="/commutionMedicale">Commution Medicale</a>
+                                        <a class="dropdown-item" href="/commutionArbitrage">Commution Arbitrage</a>
                                         <a class="dropdown-item" href="#">Réglements</a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown ">
                                     <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Volleyball</a>
                                     <div class="dropdown-menu" aria-labelledby="dropdown04">
-                                        <a class="dropdown-item" href="/equipe nationaleseniorhommes">Equipe Nationale seniors hommes</a>
+                                        <a class="dropdown-item" href="/equipenationaleseniorhommes">Equipe Nationale seniors hommes</a>
                                         <a class="dropdown-item" href="/equipenationaleseniorDames">Equipe Nationale seniors dames</a>
                                         <a class="dropdown-item" href="/equipenationalejeunegarcons">Equipe Nationale jeunes garçons</a>
                                         <a class="dropdown-item" href="/equipenationalejeunefilles">Equipe Nationale jeunes filles</a>
@@ -80,8 +80,8 @@
                                         <li class="nav-item dropdown ">
                                         <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Media</a>
                                         <div class="dropdown-menu" aria-labelledby="dropdown04">
-                                            <a class="dropdown-item" href="media_images.html">Images</a>
-                                            <a class="dropdown-item" href="media-video.html">Videos</a> 
+                                            <a class="dropdown-item" href="/mediaImages">Images</a>
+                                            <a class="dropdown-item" href="/media-video">Videos</a> 
                                         </div>
                                         </li>
                                         <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
@@ -89,7 +89,7 @@
                     </div>
             </div>
        </nav>
-   </section>
+   
 
    <div class="container">
       <div class="header-top">

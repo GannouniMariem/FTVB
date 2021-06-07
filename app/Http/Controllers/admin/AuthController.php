@@ -5,14 +5,27 @@ namespace App\Http\Controllers\admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Http\Traits\GeneralTrait;
-
+use App\Models\User;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Redirect;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class AuthController extends Controller
 {
     use GeneralTrait;
+
+
+    public function show(){
+
+        return view('back-office.auth.login');
+    }
+
+    public function showRegister(){
+
+        return view('back-office.auth.register');
+    }
 
     public function login(Request $request)
     {
@@ -42,12 +55,13 @@ class AuthController extends Controller
 
             $guard = Auth::guard('api');
             $token = $guard->attempt($credentials);
-            
+            $users       =   User::where(['email' => $credentials['email']])->first();
             if (!$token){
-                return $this->returnError('E001', 'Login ou mot de passe invalide');
+                return Redirect::back()->with('error', 'Login ou mot de passe invalide');
             }
             
-            return $this->returnData('token', $token, "login succsessfully");
+            Auth::login($users);
+            return redirect('/admin');
 
 
 
@@ -59,23 +73,26 @@ class AuthController extends Controller
         }
     }
 
+    public function create(Request $request)
+    {
+        $user = new User();
+
+        $user->nom = $request->input('nom');
+        $user->email = $request->input('email');
+        $user->password = Hash::make($request->input('password'));
+
+        $user->save();
+
+        return redirect('/login');
+
+    }
+
 
     //Logout 
 
-    public function logout(Request $request)
-    {
-
-        $token = $request->header('token');
-        if ($token) {
-            try {
-                JWTAuth::setToken($token)->invalidate(); //logout
-            } catch (\Tymon\JWTAuth\Exceptions\TokenInvalidException $e) {
-                return $this->returnError('', 'samething went wrong');
-            }
-
-            return $this->retournSuccessMessage('', 'logout successfuly');
-        } else {
-            $this->returnError('', 'samething went wrong');
-        }
-    }
+    public function logout(Request $request){
+        
+        Auth::logout();
+        return redirect('/login');
+   }
 }

@@ -42,7 +42,7 @@ Elle est reconnue par les autorités compétentes tunisiennes comme étant la se
           </div>
        </div>
     </div>
-    <div class="dark-section" style="background:url(images/volley\ pic7.jpg)">
+    <div class="dark-section" style="background:url(/front-office/images/volley\ pic7.jpg)">
        <div class="container">
           <div class="row">
              <div class="col-md-12 col-sm-12">

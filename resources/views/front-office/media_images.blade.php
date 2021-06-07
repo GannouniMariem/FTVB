@@ -5,7 +5,7 @@
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                    <div class="slider-contant" data-animation="animated fadeInRight">
-                      <h3 style="margin-top: 400px;padding-bottom: 1px;">Galerie<span class="color-yellow">"Images"</span></h3>
+                      <h3 style="margin-top: 400px;padding-bottom: 1px;">Galerie<span class="color-yellow">"/front-office/Images"</span></h3>
       </div>
      </div>
     </div>
@@ -32,101 +32,17 @@
     
        <div class="row">
     
-    
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-              <a href="images/equipe nationale 2.jpg" class="fancybox" rel="ligthbox">
-                  <img  src="images/equipe nationale 2.jpg"  class="zoom img-fluid "  alt="">
-                 
-              </a>
-          </div>
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter CHN">
-              <a href="images/equipe nationale 2.jpg"   class="fancybox" rel="ligthbox">
-                  <img  src="images/equipe nationale 2.jpg"  class="zoom img-fluid"  alt="">
-              </a>
-          </div>
+    @foreach ($gallerys as $image)
+    <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
+        <a href="{{"/gallery"."/".$image->url}}" class="fancybox" rel="ligthbox">
+            <img  src="{{"/gallery"."/".$image->url}}"  class="zoom img-fluid "  alt="">
+           
+        </a>
+    </div>
+    @endforeach
           
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-              <a href="images/equipe nationale 2.jpg" class="fancybox" rel="ligthbox">
-                  <img  src="images/equipe nationale 2.jpg" class="zoom img-fluid "  alt="">
-              </a>
-          </div>
-          
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter MD">
-              <a href="images/equipe nationale 1.jpg" class="fancybox" rel="ligthbox">
-                  <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-              </a>
-          </div>
-          
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-              <a href="images/equipe nationale 1.jpg" class="fancybox" rel="ligthbox">
-                  <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-              </a>
-          </div>
-          
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter CPT">
-              <a href="images/equipe nationale 1.jpg" class="fancybox" rel="ligthbox">
-                  <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-              </a>
-          </div>
-          
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-              <a href="images/equipe nationale 1.jpg"fancybox" rel="ligthbox">
-                  <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-              </a>
-          </div>
-          
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-              <a href="images/female volley.png" class="fancybox" rel="ligthbox">
-                  <img  src="images/female volley.png" class="zoom img-fluid "  alt="">
-              </a>
-          </div>
-          <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-             <a href="images/equipe nationale 2.jpg" class="fancybox" rel="ligthbox">
-                 <img  src="images/equipe nationale 2.jpg"  class="zoom img-fluid "  alt="">
-                
-             </a>
-         </div>
-         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter CHN">
-             <a href="images/equipe nationale 2.jpg"   class="fancybox" rel="ligthbox">
-                 <img  src="images/equipe nationale 2.jpg"  class="zoom img-fluid"  alt="">
-             </a>
-         </div>
-         
-         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-             <a href="images/equipe nationale 2.jpg"  class="fancybox" rel="ligthbox">
-                 <img  src="images/equipe nationale 2.jpg" class="zoom img-fluid "  alt="">
-             </a>
-         </div>
-         
-         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter MD">
-             <a href="images/equipe nationale 1.jpg" class="fancybox" rel="ligthbox">
-                 <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-             </a>
-         </div>
-         
-         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-             <a href="images/equipe nationale 1.jpg" class="fancybox" rel="ligthbox">
-                 <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-             </a>
-         </div>
-         
-         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter CPT">
-             <a href="images/equipe nationale 1.jpg" class="fancybox" rel="ligthbox">
-                 <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-             </a>
-         </div>
-         
-         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-             <a href="images/equipe nationale 1.jpg"fancybox" rel="ligthbox">
-                 <img  src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-             </a>
-         </div>
-         
-         <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter EqN">
-             <a href="images/female volley.png" class="fancybox" rel="ligthbox">
-                 <img  src="images/female volley.png" class="zoom img-fluid "  alt="">
-             </a>
-         </div>
+
+      
        </div>
     </div>
     </section>
@@ -145,25 +61,25 @@
     
            <div class="col-lg-3 col-md-4 col-xs-6">
              <div class="supporter-logo">
-               <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+               <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
              </div>
            </div>
     
            <div class="col-lg-3 col-md-4 col-xs-6">
              <div class="supporter-logo">
-               <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+               <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
              </div>
            </div>
     
            <div class="col-lg-3 col-md-4 col-xs-6">
              <div class="supporter-logo">
-               <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+               <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
              </div>
            </div>
     
            <div class="col-lg-3 col-md-4 col-xs-6">
              <div class="supporter-logo">
-               <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+               <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
              </div>
            </div>
     

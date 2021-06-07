@@ -22,7 +22,7 @@
                    <div class="Designation-classic-heading"><h2 style="background-color: #D80E2A ;padding: 15px 15px 15px 15px;color: #fff;text-align: center;">Les derniéres Resultats</h2></div>
                    <div class="Designation-latest-result">
                        <div class="Designation-result-one">
-                           <figure><img src="images/est grand.png" alt=""></figure>
+                           <figure><img src="/front-office/images/est grand.png" alt=""></figure>
                            <section>
                                <h4>Esperance.ST</h4>
                                <span>(21)</span>
@@ -41,7 +41,7 @@
                            </div>
                        </div>
                        <div class="Designation-result-one Designation-result-two  ">
-                           <figure style="margin-right: 0px;"><img src="images/ess grand.png" alt=""></figure>
+                           <figure style="margin-right: 0px;"><img src="/front-office/images/ess grand.png" alt=""></figure>
                            <section style="margin-left: -33px;">
                                <h4>ES.Sahel</h4>
                                <span>(21)</span>
@@ -55,7 +55,7 @@
                    <div class="Designation-classic-heading"><h2 style="background-color: #D80E2A ;padding: 15px 15px 15px 15px;color: #fff;text-align: center;">Match prochain</h2></div>
                    <div class="Designation-next-game">
                        <div class="Designation-result-one">
-                           <figure><img src="images/ess grand.png" alt=""></figure>
+                           <figure><img src="/front-office/images/ess grand.png" alt=""></figure>
                            <section>
                                <h4>CS.Sfaxien </h4>
                            </section>
@@ -65,7 +65,7 @@
                            <span>Madison Stadium</span>
                        </div>
                        <div class="Designation-result-one Designation-result-two">
-                           <figure><img src="images/est grand.png""></figure>
+                           <figure><img src="/front-office/images/est grand.png""></figure>
                            <section>
                                <h4>ES.Sahel</h4>
                            </section>
@@ -83,51 +83,20 @@
              <div class="container">
                 <div class="row">
                    <div class="col-lg-9 col-sm-12 col-xs-12">
-                      <div class="news-post-holder">
-                         <div class="col-lg-6 col-sm-6 col-xs-12">
-                            <div class="news-post-widget">
-                               <img class="img-responsive" src="images/Est trophie.jpg" alt="">
-                               <div class="news-post-detail">
-                                <h2><a href="blog-detail.html">L'esperance sportive de tunisie est champion de tunisie</a></h2>
-                                  <p>’Espérance Sportive de Tunis a remporté ce samedi le titre du championnat Tunisie Télécom de volleyball pour la 21e fois de son histoire et le quatrième consécutif après sa victoire en barrage contre le CS Sfaxien par trois sets à deux</p>
-                                  <span class="date">20 juin 2021</span>
-                               </div>
-                            </div>
-                         </div>
-                         <div class="col-lg-6 col-sm-6 col-xs-12">
-                            <div class="news-post-widget">
-                               <img class="img-responsive" src="images/Est trophie.jpg" alt="">
-                               <div class="news-post-detail">
-                                  <h2><a href="blog-detail.html">L'esperance sportive de tunisie est champion de tunisie</a></h2>
-                                  <p>’Espérance Sportive de Tunis a remporté ce samedi le titre du championnat Tunisie Télécom de volleyball pour la 21e fois de son histoire et le quatrième consécutif après sa victoire en barrage contre le CS Sfaxien par trois sets à deux</p>
-                                  <span class="date">20 juin 2021</span>
-                               </div>
-                            </div>
-                         </div>
-                         <div class="col-lg-6 col-sm-6 col-xs-12">
-                            <div class="news-post-widget">
-                               <img class="img-responsive" src="images/Est trophie.jpg" alt="">
-                               <div class="news-post-detail">
-                                  <h2><a href="blog-detail.html">L'esperance sportive de tunisie est champion de tunisie</a></h2>
-                                  <p>’Espérance Sportive de Tunis a remporté ce samedi le titre du championnat Tunisie Télécom de volleyball pour la 21e fois de son histoire et le quatrième consécutif après sa victoire en barrage contre le CS Sfaxien par trois sets à deux</p>
-                                  <span class="date">20 juin 2021</span>
-                               </div>
-                            </div>
-                         </div>
-                         <div class="col-lg-6 col-sm-6 col-xs-12">
-                            <div class="news-post-widget">
-                               <img class="img-responsive" src="images/Est trophie.jpg" alt="">
-                               <div class="news-post-detail">
-                                  <h2><a href="blog-detail.html">L'esperance sportive de tunisie est champion de tunisie</a></h2>
-                                  <p>’Espérance Sportive de Tunis a remporté ce samedi le titre du championnat Tunisie Télécom de volleyball pour la 21e fois de son histoire et le quatrième consécutif après sa victoire en barrage contre le CS Sfaxien par trois sets à deux</p>
-                                  <span class="date">20 juin 2021</span>
-                               </div>
-                            </div>
-                         </div>
-                      </div>
+                     @foreach ($articles as $article )
+                     <div class="col-lg-6 col-sm-6 col-xs-12">
+                        <div class="news-post-widget">
+                           <img class="img-responsive" src="{{"/img"."/".$article->attachment}}" alt="">
+                           <div class="news-post-detail">
+                          {!! $article->description !!}
+                              <span class="date">20 juin 2021</span>
+                           </div>
+                        </div>
+                     </div>
+                   @endforeach
                    </div>
                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                    <div class="content-widget top-story" style="background: url(images/links\ zone.jpg);">
+                    <div class="content-widget top-story" style="background: url(/front-office/images/links\ zone.jpg);">
                       <div class="top-stroy-header">
                          <h2>Communiqués &nbsp  &nbsp &nbsp <a href="#" class="fa fa-fa fa-angle-right"></a></h2>
                          <span class="date">Juin 05, 2021</span>
@@ -165,7 +134,7 @@
                   <tbody>
                      <tr>
                         <td>1</td>
-                        <td><img src="images/ess mini.png" alt="">Etoile.ss</td>
+                        <td><img src="/front-office/images/ess mini.png" alt="">Etoile.ss</td>
                         <td>10</td>
                         <td>21</td>
                         <td>20</td>
@@ -174,7 +143,7 @@
                      </tr>
                      <tr>
                         <td>2</td>
-                        <td><img src="images/est mini.png" alt="">Esperance.st</td>
+                        <td><img src="/front-office/images/est mini.png" alt="">Esperance.st</td>
                         <td>10</td>
                         <td>19</td>
                         <td>20</td>
@@ -183,7 +152,7 @@
                      </tr>
                      <tr>
                         <td>3</td>
-                        <td><img src="images/ess mini.png" alt="">cs.Sfaxien</td>
+                        <td><img src="/front-office/images/ess mini.png" alt="">cs.Sfaxien</td>
                         <td>10</td>
                         <td>15</td>
                         <td>20</td>
@@ -192,7 +161,7 @@
                      </tr>
                      <tr>
                         <td>4</td>
-                        <td><img src="images/est mini.png" alt="">A.Carthage</td>
+                        <td><img src="/front-office/images/est mini.png" alt="">A.Carthage</td>
                         <td>10</td>
                         <td>10</td>
                         <td>0</td>
@@ -201,7 +170,7 @@
                      </tr>
                      <tr>
                         <td>5</td>
-                        <td><img src="images/ess mini.png" alt="">OSCC</td>
+                        <td><img src="/front-office/images/ess mini.png" alt="">OSCC</td>
                         <td>10</td>
                         <td>6</td>
                         <td>30</td>
@@ -210,7 +179,7 @@
                      </tr>
                      <tr>
                         <td>6</td>
-                        <td><img src="images/est mini.png" alt="">Tabarka</td>
+                        <td><img src="/front-office/images/est mini.png" alt="">Tabarka</td>
                         <td>10</td>
                         <td>4</td>
                         <td>20</td>
@@ -247,71 +216,15 @@
                    <div class="full">
                       <div class="container-fluid pictures-container" data-aos="fade-up" data-aos-delay="100">
                           <div class="row g-0">
-                  
-                            <div class="col-lg-3 col-md-4">
-                              <div class="pictures">
-                                <a href="images/equipe nationale 1.jpg" class="glightbox">
-                                  <img src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-                                </a>
-                              </div>
-                            </div>
-                  
-                            <div class="col-lg-3 col-md-4">
-                              <div class="pictures">
-                                <a href="images/equipe nationale 2.jpg" class="glightbox" >
-                                  <img src="images/equipe nationale 2.jpg" class="zoom img-fluid "  alt="">
-                                </a>
-                              </div>
-                            </div>
-                  
-                            <div class="col-lg-3 col-md-4">
-                              <div class="pictures">
-                                <a href="images/equipe nationale 4.jpg" class="glightbox" >
-                                  <img src="images/equipe nationale 4.jpg" class="zoom img-fluid "  alt="">
-                                </a>
-                              </div>
-                            </div>
-                  
-                            <div class="col-lg-3 col-md-4">
-                              <div class="pictures">
-                                <a href="images/equipe nationale 4.jpg" class="glightbox">
-                                  <img src="images/equipe nationale 4.jpg" class="zoom img-fluid "  alt="">
-                                </a>
-                              </div>
-                            </div>
-                  
-                            <div class="col-lg-3 col-md-4">
-                              <div class="venue-gallery">
-                                <a href="images/equipe nationale 1.jpg" class="glightbox">
-                                  <img src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt=""
-                                </a>
-                              </div>
-                            </div>
-                  
-                            <div class="col-lg-3 col-md-4">
-                              <div class="venue-gallery">
-                                <a href="images/equipe nationale 2.jpg" class="glightbox" ">
-                                  <img src="images/équipe nationale 2.jpg" class="zoom img-fluid "  alt="">
-                                </a>
-                              </div>
-                            </div>
-                  
-                            <div class="col-lg-3 col-md-4 ">
-                              <div class="venue-gallery">
-                                <a href="images/equipe nationale 1.jpg" class="glightbox" >
-                                  <img src="images/equipe nationale 1.jpg" class="zoom img-fluid "  alt="">
-                                </a>
-                              </div>
-                            </div>
-                  
-                            <div class="col-lg-3 col-md-4">
-                              <div class="venue-gallery">
-                                <a href="images/equipe nationale 4.jpg" class="glightbox">
-                                  <img src="images/equipe nationale 4.jpg" class="zoom img-fluid "  alt="">
-                                </a>
-                              </div>
-                            </div>
-                  
+                           @foreach ($gallerys as $image )
+                           <div class="col-lg-3 col-md-4 ">
+                               <div class="venue-gallery">
+                                 <a href="#" class="glightbox" >
+                                   <img src="{{"/gallery"."/".$image->url}}" class="zoom img-fluid "  alt="">
+                                 </a>
+                               </div>
+                             </div>
+                           @endforeach
                    </div>
                 </div>
              </div>
@@ -334,25 +247,25 @@
         
                 <div class="col-lg-3 col-md-4 col-xs-6">
                   <div class="supporter-logo">
-                    <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+                    <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
                   </div>
                 </div>
         
                 <div class="col-lg-3 col-md-4 col-xs-6">
                   <div class="supporter-logo">
-                    <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+                    <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
                   </div>
                 </div>
         
                 <div class="col-lg-3 col-md-4 col-xs-6">
                   <div class="supporter-logo">
-                    <img src="images/tunisair logo.jpg" class="img-responsive" alt="">
+                    <img src="/front-office/images/tunisair logo.jpg" class="img-responsive" alt="">
                   </div>
                 </div>
         
                 <div class="col-lg-3 col-md-4 col-xs-6">
                   <div class="supporter-logo">
-                    <img src="images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
+                    <img src="/front-office/images/Tunisie-Telecom logo.jpg" class="img-responsive" alt="">
                   </div>
                 </div>
         
